@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora Basica</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <center>
+        <div class="contenedor-calculadora">
+            <center><h3 class="texto">Calculadora Basica By Sebastian Cely</h3></center>
+            <div class="calculadora">
+                <input class="input" type="text" id="num1" readonly>
+            </div>
+            <button id="borrar" style="padding: 1px 10px 1px 10px;margin-left: 19em;margin-top: 0.7em;background: #efefef;color: black;filter: drop-shadow(2px 4px 6px black);font-size: 14px;border-radius: 0.5em;" onclick="borrarNumero()">⌫</button>
+            <div class="contenedor-botones">
+                <div class="button">
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('1')">1</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('2')">2</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('3')">3</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="SeleccionarOperacion('÷')">÷</button>
+                    <br />
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('4')">4</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('5')">5</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('6')">6</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="SeleccionarOperacion('+')">+</button>
+                    <br />
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('7')">7</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('8')">8</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('9')">9</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="SeleccionarOperacion('*')">×</button>
+                    <br />
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Escribir('0')">0</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Limpiar()">C</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="Resultado()">=</button>
+                    <button style="padding: 1px 10px 1px 10px;" onclick="SeleccionarOperacion('-')">-</button>
+                    <br />
+
+
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

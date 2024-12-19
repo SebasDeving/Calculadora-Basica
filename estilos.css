@@ -1,0 +1,40 @@
+.button {
+    text-align: center;
+    margin-bottom: 1em;
+    color: white;
+    margin-top: 17px;
+}
+.input {
+    text-align: right;
+    filter: drop-shadow(2px 4px 6px black);
+}
+body {
+    background: #0000008f;
+}
+.calculadora {  
+    text-align: center;
+    margin-bottom: -2em;
+    margin-top: 1em;
+}
+.contenedor-botones {
+    border: 1px solid black;
+    margin-bottom: 1em;
+    width: 71%;
+    border-radius: 1em;
+    margin-top: 2em;
+    background: #0024d324;
+    filter: drop-shadow(2px 4px 6px black);
+}   
+.contenedor-calculadora {
+    border: 1px solid black;
+    width: 21%;
+    border-radius: 2em;
+    margin-top: 4em;
+    background: #9400d378;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
