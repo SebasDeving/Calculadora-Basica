@@ -73,13 +73,13 @@ function Limpiar() {
 function borrarNumero() {
     if (expresionCompleta.length > 0) {
         if (expresionCompleta.slice(" ")) {
-            expresionCompleta = expresionCompleta.slice(0, -3);
+            expresionCompleta = expresionCompleta.slice(0, -1);
             operadorActual = "";
             numero = numeroAnterior;
             numeroAnterior = "";
         } else {
-            expresionCompleta = expresionCompleta.slice(0, -2);
-            numero = numero.slice(0, -2);
+            expresionCompleta = expresionCompleta.slice(0, -1);
+            numero = numero.slice(0, -1);
         }
         actualizarPantalla();
     }
